@@ -24,6 +24,18 @@ body,
 	font-size: 1.1em;
 }
 
+.button-area {
+	position: absolute;
+	height: 30px;
+	width:80px;
+	overflow: auto;
+	left: 85%;
+	top: 81%;
+	z-index: 2;
+	background-color: #fff;
+	opacity: 0.8;
+}
+
 .search-area {
 	position: absolute;
 	max-height: 100%;

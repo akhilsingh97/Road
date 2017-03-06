@@ -16,14 +16,14 @@
         </ul>
 
     </div>
-    <button id="btn" class="btn-zoom">Zoom</button>
+    <button id="btn" class="button-area">Zoom</button>
     <div class="map-canvas" id="map"></div>
 
 
 
     <script type="text/html" id="location">
 
-        <li class="location-item" data-bind="text: id, click: populateInfoWindow"></li>
+        <li class="location-item" data-bind="text: id + '  ' +timestamp , click: populateInfoWindow"></li>
     </script>
     <script>
 
